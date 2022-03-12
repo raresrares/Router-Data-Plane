@@ -1,0 +1,27 @@
+Stanca Aurelian Rares - 324 CB - Tema 1 PC - 2021
+
+Prima data verific prima data daca e icmp daca e echo req
+pentru router trimit echo reply inapoi
+
+Daca e arp verific daca e reply sau request.
+Daca e request trimit reply cu macul routerului
+Daca e reply adaug in tabela arp entry cu spa si sha, si verific cat timp
+coada de icmp uri e !empty scot icmp ul si trimit mai departe packetul
+
+E destul de straightforward codul, efectiv fac ce scrie in pasii aia
+(verific daca e arp/icmp si fac ce trebuie in cazul asta, decrementez ttl,
+verific checksum-ul etc.)
+
+Pentru forwarding nu implementez in mai putin de O(n)!! Efectiv mi-am 
+facut un vector in care tin minte toate intrarile si caut liniar in el.
+La fel pentru tabelul ARP.
+
+La feedback voiam sa spun urmatoarele chestii:
+- a fost cea mai frumoasa tema pe care am facut-o vreodata si simt cu adevarat
+ca am invatat din ea cum n-am invatat din multe chestii din facultate de pana
+acum
+- pe de alta parte cred ca a fost oribil de grea, cel putin pentru mine, si nu
+stiu daca a meritat tot efortul asta doar ca sa implementez cerintele, dar
+banuiesc ca asta o sa aflu peste cativa ani.
+- big up din nou pentru tema!! mi-a placut enorm de mult :)
+
