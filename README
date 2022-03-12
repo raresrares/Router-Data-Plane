@@ -15,13 +15,3 @@ verific checksum-ul etc.)
 Pentru forwarding nu implementez in mai putin de O(n)!! Efectiv mi-am 
 facut un vector in care tin minte toate intrarile si caut liniar in el.
 La fel pentru tabelul ARP.
-
-La feedback voiam sa spun urmatoarele chestii:
-- a fost cea mai frumoasa tema pe care am facut-o vreodata si simt cu adevarat
-ca am invatat din ea cum n-am invatat din multe chestii din facultate de pana
-acum
-- pe de alta parte cred ca a fost oribil de grea, cel putin pentru mine, si nu
-stiu daca a meritat tot efortul asta doar ca sa implementez cerintele, dar
-banuiesc ca asta o sa aflu peste cativa ani.
-- big up din nou pentru tema!! mi-a placut enorm de mult :)
-
